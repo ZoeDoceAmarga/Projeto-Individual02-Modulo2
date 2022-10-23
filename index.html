@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Projeto Individual</title>
+</head>
+<body>
+    <header>
+        <h1>Cifra de César</h1>
+    </header>
+    <main>
+        <form>
+            <section id="escolhaCripto">
+                <input id="inputCesar" type="radio" name="opcao" value="cifraCesar">
+                <label for="cifraDeCesar">Cifra de Cesar</label>
+                <input id="inputBase64" type="radio" name="opcao" value="base64">
+                <label for="base64">Base64</label>
+            </section>
+            <section id="mensagem">
+                <label for="titulo2">Digite sua mensagem abaixo para ser codificada ou decodificada:</label>
+                <br>
+                <br>
+                <textarea id="msg" class="caixa" name="mensagem" cols="40" rows="5"  placeholder="Digite sua mensagem"></textarea>
+            </section>
+            <section id="incremento">
+                <label for="incremento">Digite aqui o incremento desejado:</label>
+                <input id="incremento" class="caixa2"  type="number" value="1" name="incremento" >
+
+            </section>
+            <section id="escolhaDesOuCo">
+                <input id="codificar" class="inputCodificar" type="radio">
+                <label for="codificar">Codificar</label>
+                <input id="descodificar" class="inputDescodificar" type="radio">
+                <label for="descodificar">Descodificar</label>
+            </section>
+
+            <br>
+            <section id="resultado">
+                <label for="resultado">Resultado:</label>
+                <br>
+                <textarea id="resultado" class="caixa" name="resultado" cols="40" rows="5" placeholder="Aguarde o resultado aqui"></textarea>
+            </section>
+        </form>
+        <section id="footer">
+            <h4>&copy Desenvolvido por Sara Ayram | SENAC-RJ / RESILIA</h4>
+            <div class="imagens">
+                <a href="#"><img src="img/linkedin.png" alt="logo do linkdedin"></a>
+                <a href="https://github.com/ZoeDoceAmarga"><img src="img/github.png" alt="logo do github"></a>
+            </div>
+        </section>
+        
+    </main>
+    
+</body>
+</html>
