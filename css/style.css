@@ -12,6 +12,16 @@ body{
     justify-content: center;
     background-color: rgba(219, 114, 65, 0.603);
 }
+main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100vw;
+    height: 100vh;
+    align-items: center;
+    
+
+}
 header{
     margin-top: 40px;
     text-align: center;
@@ -34,17 +44,16 @@ header{
 }
 form{
     display: flex;
-    width: 550px;
-    background-color: rgb(255, 255, 255, 0.3);
     flex-direction: column;
-    align-content: center;
-    justify-items: center;
     justify-content: center;
+    align-items: center;
+    width: 550px;
+    height: 600px;
+    background-color: rgb(255, 255, 255, 0.3);
     padding: 5%;
     border: 1px solid white;
     border-radius: 5px;
     box-shadow: 8px 8px 8px 8px rgb(0 0 0 / 20%);
-    text-align: center;
     color: #fff;
 }
 .caixa{
@@ -57,6 +66,3 @@ form{
     background-color: antiquewhite;
     
 }
-#footer a:hover{
-
-} 
