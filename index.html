@@ -14,31 +14,34 @@
     <main>
         <form>
             <section id="escolhaCripto">
-                <input id="inputCesar" type="radio" name="opcao" value="cifraCesar">
-                <label for="cifraDeCesar">Cifra de Cesar</label>
-                <input id="inputBase64" type="radio" name="opcao" value="base64">
-                <label for="base64">Base64</label>
+                <input type="radio" name="opcao" value="base64" class="radioOption" id="Option1">
+                <label for="64">Base 64</label>
+                <input type="radio" name="opcao" value="cesar" class="radioOption" id="Option2">
+                <label for="cesar">Cifra de Cesar</label>
             </section>
             <section id="mensagem">
-                <label for="titulo2">Digite sua mensagem abaixo para ser codificada ou decodificada:</label>
+                <label  for="titulo2">Digite sua mensagem abaixo para ser codificada ou decodificada:</label>
                 <br>
                 <br>
                 <textarea id="msg" class="caixa" name="mensagem" cols="40" rows="5"  placeholder="Digite sua mensagem"></textarea>
             </section>
-            <section id="incremento">
+            <div class="incremento">
                 <label for="incremento">Digite aqui o incremento desejado:</label>
-                <input id="incremento" class="caixa2"  type="number" value="1" name="incremento" >
+                <input id="incremento" class="caixa2"  type="number" value="1" max="26" name="incremento" >
 
-            </section>
+            </div>
             <section id="escolhaDesOuCo">
-                <input id="codificar" class="inputCodificar" type="radio">
+                <input id="codificar" class="inputRadio" type="radio" name="cod">
                 <label for="codificar">Codificar</label>
-                <input id="descodificar" class="inputDescodificar" type="radio">
-                <label for="descodificar">Descodificar</label>
+                <input id="descodificar" class="inputRadio" type="radio" name="cod">
+                <label for="descodificar">Decodificar</label>
             </section>
 
             <br>
-            <section id="resultado">
+            <div id="area_button">
+
+            </div>
+            <section id="area_resultado">
                 <label for="resultado">Resultado:</label>
                 <br>
                 <textarea id="resultado" class="caixa" name="resultado" cols="40" rows="5" placeholder="Aguarde o resultado aqui"></textarea>
@@ -53,6 +56,6 @@
         </section>
         
     </main>
-    
+    <script src="js/script.js"></script>
 </body>
 </html>

@@ -32,11 +32,28 @@ header{
 
 }
 #mensagem{
+
+    text-align: center;
     margin-top: 20px;
 
 }
-#incremento{
+.botao{
+    background-color: rgb(221, 190, 148);
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 2px;
+    cursor: pointer;
+    display:none ;
+}
+.botao:hover{
+    background-color: rgb(156, 63, 26);
+}
+.incremento{
+    display: none;
     margin-top: 10px;
+}
+#area_resultado{
+    
 }
 #escolhaDesOuCo{
     margin-top: 10px;
